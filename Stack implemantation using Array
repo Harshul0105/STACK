@@ -1,0 +1,26 @@
+#include<iostream>
+using namespace std;
+
+class Stack 
+{
+  int arr;
+  void push(int v)
+  {
+    arr.push_back(v);
+  }
+  void pop()
+  {
+    arr.pop_back();
+  }
+  bool isempty()
+  {
+    if(arr size()==0)
+   return true;
+   else
+   return false;
+  }
+  int top()
+  {
+    return arr[arr.size()-1];
+  }
+};

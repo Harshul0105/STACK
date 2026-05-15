@@ -1,0 +1,36 @@
+#include<iostream>
+using namespace std;
+
+class Stack 
+{
+  Node *head;
+  public:
+  Stack()
+  {
+    head= NULL:
+  }
+  void push(int v)
+  {
+    Node *n= new Node(v);
+    if(head= NULL)
+    {
+      head n;
+    }
+  }
+  void pop()
+  {
+    Node *n = head -> next
+    delete head
+    head= n;
+  }
+  bool isEmpty()
+  {
+  if(head= NULL)
+  return true;
+  else
+  return false;
+  }
+  int top(){
+    return head ->value;
+  }
+};
